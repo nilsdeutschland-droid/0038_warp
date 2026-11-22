@@ -1,0 +1,82 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Homebrew: Show version",
+      "type": "shell",
+      "command": "brew",
+      "args": ["--version"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Homebrew: List installed packages",
+      "type": "shell",
+      "command": "brew",
+      "args": ["list", "--versions"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Homebrew: Check outdated packages",
+      "type": "shell",
+      "command": "brew",
+      "args": ["outdated"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Homebrew: Update package metadata",
+      "type": "shell",
+      "command": "brew",
+      "args": ["update"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Homebrew: Upgrade all packages",
+      "type": "shell",
+      "command": "brew",
+      "args": ["upgrade"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Homebrew: Show services",
+      "type": "shell",
+      "command": "brew",
+      "args": ["services", "list"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Ollama: Install with Homebrew",
+      "type": "shell",
+      "command": "brew",
+      "args": ["install", "ollama"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Ollama: Start Homebrew service",
+      "type": "shell",
+      "command": "brew",
+      "args": ["services", "start", "ollama"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Ollama: Restart Homebrew service",
+      "type": "shell",
+      "command": "brew",
+      "args": ["services", "restart", "ollama"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Ollama: Stop Homebrew service",
+      "type": "shell",
+      "command": "brew",
+      "args": ["services", "stop", "ollama"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Ollama: List models",
+      "type": "shell",
+      "command": "ollama",
+      "args": ["list"],
+      "problemMatcher": []
+    }
+  ]
+}
